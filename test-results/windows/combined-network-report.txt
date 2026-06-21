@@ -1,0 +1,70 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260621132432
+Username: DESKTOP-B5D7VQS\Dell
+RunAs User: DESKTOP-B5D7VQS\Dell
+Configuration Name: 
+Machine: DESKTOP-B5D7VQS (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\Dell\AppData\Local\Programs\Microsoft VS Code\fcf604774b\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 10896
+PSVersion: 5.1.26100.8521
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8521
+BuildVersion: 10.0.26100.8521
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is .\test-results\windows\combined-network-report.txt
+Running network diagnostics...
+
+Source        Destination     IPV4Address      IPV6Address                              Bytes    Time(ms)
+------        -----------     -----------      -----------                              -----    --------
+DESKTOP-B5... google.com      142.250.193.142  2404:6800:4002:82a::200e                 32       19
+DESKTOP-B5... google.com      142.250.193.142  2404:6800:4002:82a::200e                 32       133
+
+Name       : google.com
+QueryType  : AAAA
+TTL        : 72
+Section    : Answer
+IP6Address : 2404:6800:4002:82a::200e
+
+
+Name       : google.com
+QueryType  : A
+TTL        : 269
+Section    : Answer
+IP4Address : 142.250.193.142
+
+
+ComputerName             : google.com
+RemoteAddress            : 2404:6800:4002:82a::200e
+ResolvedAddresses        : {2404:6800:4002:82a::200e, 142.250.193.142}
+PingSucceeded            : False
+PingReplyDetails         :
+TcpClientSocket          :
+TcpTestSucceeded         : True
+RemotePort               : 443
+TraceRoute               :
+Detailed                 : False
+InterfaceAlias           : Wi-Fi
+InterfaceIndex           : 16
+InterfaceDescription     : Intel(R) Wi-Fi 6E AX211 160MHz
+NetAdapter               : MSFT_NetAdapter (CreationClassName = "MSFT_NetAdapter", DeviceID = "{D4020F7E-0B13-436F-8161-1A49BD4AC24F}",
+                           SystemCreationClassName = "CIM_NetworkPort", SystemName = "DESKTOP-B5D7VQS")
+NetRoute                 : MSFT_NetRoute (InstanceID = "DD9:55;@55poB:DDB@?BDn@ppDpo;?Dlkl?55;")
+SourceAddress            : 2409:4090:a004:be07:5c15:4e90:5801:6ee8
+NameResolutionSucceeded  : True
+BasicNameResolution      : {Microsoft.DnsClient.Commands.DnsRecord_AAAA, Microsoft.DnsClient.Commands.DnsRecord_A}
+LLMNRNetbiosRecords      : {}
+DNSOnlyRecords           : {Microsoft.DnsClient.Commands.DnsRecord_AAAA, Microsoft.DnsClient.Commands.DnsRecord_A}
+AllNameResolutionResults : {Microsoft.DnsClient.Commands.DnsRecord_A, Microsoft.DnsClient.Commands.DnsRecord_AAAA}
+IsAdmin                  : False
+NetworkIsolationContext  : Internet
+MatchingIPsecRules       :
+
+**********************
+Windows PowerShell transcript end
+End time: 20260621132434
+**********************
